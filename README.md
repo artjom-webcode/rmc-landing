@@ -1,2 +1,2 @@
 # rmc-landing
-Small website landing page
+Small landing page
