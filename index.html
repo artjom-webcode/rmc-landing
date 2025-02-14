@@ -3,7 +3,400 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>RMC - design</title>
   </head>
-  <body></body>
+
+  <body>
+    <!--* ============= Header ================-->
+    <header class="header" id="header">
+      <div class="header__container">
+        <a href="#!" class="logo">RMC</a>
+        <nav class="menu" id="nav-menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#studio">TOP SERVICES</a></li>
+            <li class="menu__item"><a class="menu__link" href="#projects">projects</a></li>
+            <li class="menu__item"><a class="menu__link" href="#architecture">architecture</a></li>
+            <li class="menu__item"><a class="menu__link" href="#team">team</a></li>
+          </ul>
+          <div class="menu-close" id="nav-close">
+            <img src="img/close-outline.svg" alt="" />
+          </div>
+        </nav>
+        <div class="header__right">
+          <button class="header-btn">Contact</button>
+          <div class="btn-mobile" id="nav-toggle">
+            <img src="img/menu-button.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--* ============= Main ================-->
+    <main>
+      <!--* ============= Hero ================-->
+      <section class="hero">
+        <img class="hero__wave-line" src="img/wavy-line.png" alt="" />
+        <div class="hero__wrapper">
+          <div class="hero__label-box">
+            <h2 class="hero__label">Interior</h2>
+          </div>
+          <img class="hero__img" src="img/hero.jpg" alt="Furniture" />
+        </div>
+        <div class="hero__data">
+          <img class="hero__stars" src="img/starts.png" alt="" />
+          <h3 class="hero__subtitle title-orange">Architecture design</h3>
+          <h1 class="hero__title">Professional<br />Interior Design</h1>
+          <p class="hero__text">
+            Design for now with the awareness of yesterday and unknown tomorrow. Because small
+            details make the perfect design. Helping you choose between good and best.
+          </p>
+          <button class="hero__btn button-white">Let’s work together</button>
+        </div>
+        <h2 class="hero__label-mob">Interior</h2>
+      </section>
+
+      <!--* ============= SERVICES ================-->
+      <section class="services" id="studio">
+        <div class="container">
+          <div class="services__inner">
+            <h3 class="services__subtitle title-orange">TOP SERVICES</h3>
+            <h2 class="services__title title-white">Our Specializations</h2>
+
+            <!-- Slider main container -->
+            <div class="services-slider swiper">
+              <!-- Additional required wrapper -->
+              <div class="services-slider__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="services-slider__slide swiper-slide">
+                  <img src="img/services/1.jpg" alt="" class="services-slider__img" />
+                  <div class="services-slider__data">
+                    <h3 class="services-slider__title">Floor plan</h3>
+                    <p class="services-slider__text">
+                      Tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+                <div class="services-slider__slide swiper-slide">
+                  <img src="img/services/2.jpg" alt="" class="services-slider__img" />
+                  <div class="services-slider__data">
+                    <h3 class="services-slider__title">Interior Design</h3>
+                    <p class="services-slider__text">
+                      Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.
+                    </p>
+                  </div>
+                </div>
+                <div class="services-slider__slide swiper-slide">
+                  <img src="img/services/3.jpg" alt="" class="services-slider__img" />
+                  <div class="services-slider__data">
+                    <h3 class="services-slider__title">Architecture Design</h3>
+                    <p class="services-slider__text">
+                      Tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+                <div class="services-slider__slide swiper-slide">
+                  <img src="img/services/4.jpg" alt="" class="services-slider__img" />
+                  <div class="services-slider__data">
+                    <h3 class="services-slider__title">Construction</h3>
+                    <p class="services-slider__text">
+                      Tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="services__label">Design</h2>
+      </section>
+
+      <!--* ============= ABOUT ================-->
+      <section class="about">
+        <img class="about__wave-line" src="img/wavy-line.png" alt="" />
+        <div class="container">
+          <div class="about__inner">
+            <div class="about-text-box">
+              <h2 class="about__title title-white">About Us</h2>
+              <p class="about__text">
+                As development continues, engineers may visit building destinations to guarantee
+                that temporary workers pursue the plan, keep to the timetable, utilize the
+                predefined materials, and meet work-quality models.
+              </p>
+              <div class="about__procent-box">
+                <h3 class="about__procent-nr">85<span>%</span></h3>
+                <p class="about__procent-text">Satisfied <br />Clients</p>
+              </div>
+              <a class="about__read-box">
+                <img src="img/about/about-1.jpg" alt="" class="about__read-img" />
+                <div class="about__read-circle-box">
+                  <img src="img/read/text.svg" alt="" class="about__read-circle-img" />
+                  <img src="img/read/star.svg" alt="" class="about__read-circle-star" />
+                </div>
+              </a>
+            </div>
+            <div class="about-img-box">
+              <img class="about-img-1" src="img/about/about-2.jpg" alt="" />
+              <img class="about-img-2" src="img/about/about-3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* ============= PROJECTS ================-->
+      <section class="projects" id="projects">
+        <div class="container">
+          <h3 class="projects__subtitle title-orange">OUR PROJECT</h3>
+          <div class="projects__top">
+            <h2 class="projects__title title-white">Our Latest Projects</h2>
+            <ul class="projects__list">
+              <li data-id="all" class="projects__item projects__item--active">All</li>
+              <li data-id="architecture" class="projects__item">Architecture</li>
+              <li data-id="construction" class="projects__item">Construction</li>
+              <li data-id="interior" class="projects__item">Interior Design</li>
+            </ul>
+          </div>
+
+          <div class="projects__gallery">
+            <img
+              src="img/projects/Rectangle 725.jpg"
+              alt=""
+              class="projects__gallery-img architecture"
+            />
+            <img
+              src="img/projects/Rectangle 726.jpg"
+              alt=""
+              class="projects__gallery-img construction"
+            />
+            <img
+              src="img/projects/Rectangle 727.jpg"
+              alt=""
+              class="projects__gallery-img interior"
+            />
+            <img
+              src="img/projects/Rectangle 728.jpg"
+              alt=""
+              class="projects__gallery-img architecture"
+            />
+            <img
+              src="img/projects/Rectangle 754.jpg"
+              alt=""
+              class="projects__gallery-img construction"
+            />
+            <img
+              src="img/projects/Rectangle 755.jpg"
+              alt=""
+              class="projects__gallery-img interior"
+            />
+            <img
+              src="img/projects/Rectangle 756.jpg"
+              alt=""
+              class="projects__gallery-img architecture"
+            />
+            <img
+              src="img/projects/Rectangle 757.jpg"
+              alt=""
+              class="projects__gallery-img construction"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--* ============= EXPERIENCE ================-->
+      <section class="experience">
+        <div class="container">
+          <div class="experience__inner">
+            <div class="experience__img-box">
+              <img src="img/map.png" alt="map" />
+            </div>
+            <div class="experience__text-box">
+              <h2 class="experience__title title-white">We Create Digital <br />Experience</h2>
+              <div class="experience__list">
+                <div class="experience__item">
+                  <h3 class="experience__sub-title">75<span>%</span></h3>
+                  <p class="experience__text">Architecture</p>
+                </div>
+                <div class="experience__item">
+                  <h3 class="experience__sub-title">85<span>%</span></h3>
+                  <p class="experience__text">Construction</p>
+                </div>
+                <div class="experience__item">
+                  <h3 class="experience__sub-title">65<span>%</span></h3>
+                  <p class="experience__text">Interior Design</p>
+                </div>
+              </div>
+              <button class="experience__btn">Lets work together</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* ============= availability ================-->
+      <section class="availability" id="architecture">
+        <div class="container">
+          <div class="availability__top">
+            <div class="availability__top-left">
+              <h3 class="availability__subtitle title-orange">OUR PROJECT</h3>
+              <h2 class="availability__title title-white">Check Availability</h2>
+            </div>
+            <p class="availability__top-right">
+              The unique architect with ideas from outside the world. Where design and science meet.
+              With people’s comfort in mind
+            </p>
+          </div>
+
+          <div class="availability__inner">
+            <div class="availability__table">
+              <table>
+                <tr>
+                  <th>RESIDENCE</th>
+                  <th>BED/BATH</th>
+                  <th>SQ. FT.</th>
+                  <th>SALE PRICE</th>
+                  <th>RENT PRICE</th>
+                  <th>FLOOR PLAN</th>
+                </tr>
+
+                <!-- <div class="table-line"></div> -->
+                <tr>
+                  <td data-cell="residence">LUX APARTMENT</td>
+                  <td data-cell="bed-bath">3/2</td>
+                  <td data-cell="sq-ft">110</td>
+                  <td data-cell="sale-price">$350,000</td>
+                  <td data-cell="rent-price">$2,500</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+
+                <tr>
+                  <td data-cell="residence">THE GREEN VILLA</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">112</td>
+                  <td data-cell="sale-price">$194,000</td>
+                  <td data-cell="rent-price">$3,500</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+
+                <tr>
+                  <td data-cell="residence">PENTHOUSE</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">320</td>
+                  <td data-cell="sale-price">$240,000</td>
+                  <td data-cell="rent-price">$2,500</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+
+                <tr>
+                  <td data-cell="residence">SPA LUXURY</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">520</td>
+                  <td data-cell="sale-price">$520,000</td>
+                  <td data-cell="rent-price">$9,500</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+
+                <tr>
+                  <td data-cell="residence">DUPLEX 13A</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">52</td>
+                  <td data-cell="sale-price">$150,000</td>
+                  <td data-cell="rent-price">$1,900</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+
+                <tr>
+                  <td data-cell="residence">STUDIO 8A</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">99</td>
+                  <td data-cell="sale-price">$50,000</td>
+                  <td data-cell="rent-price">$900</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+                <tr>
+                  <td data-cell="residence">SIMPLEX 12A8</td>
+                  <td data-cell="bed-bath">3/3</td>
+                  <td data-cell="sq-ft">100</td>
+                  <td data-cell="sale-price">$120,000</td>
+                  <td data-cell="rent-price">$1,000</td>
+                  <td data-cell="floor-plan"><a href="#">VIEW NOW</a></td>
+                </tr>
+              </table>
+            </div>
+            <div class="availability__imgbox">
+              <img src="img/availability-img.jpg" alt="house" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--* ============= TEAM ================-->
+      <section class="team" id="team">
+        <img src="img/team-line.png" alt="" class="team-line" />
+        <div class="container">
+          <h3 class="team__subtitle title-orange">OUR PROJECT</h3>
+          <h2 class="team__title title-white">Meet With Our Team</h2>
+
+          <div class="team__imgbox">
+            <img src="img/team-img.jpg" alt="" />
+          </div>
+
+          <div class="team__inner">
+            <p class="team__inner-text">Cody Fisher &nbsp; - &nbsp; CEO</p>
+            <p class="team__inner-text">Savannah Nguyen &nbsp; - &nbsp; Interior architect</p>
+            <p class="team__inner-text">Jerome Bell &nbsp; - &nbsp; Interior</p>
+            <p class="team__inner-text">Cameron Williamson &nbsp; - &nbsp; architect</p>
+            <p class="team__inner-text">Marvin McKinney &nbsp; - &nbsp; COnstruction head</p>
+          </div>
+        </div>
+      </section>
+
+      <!--* ============= GALLERY ================-->
+      <section class="gallery">
+        <img src="img/gallery/1.jpg" alt="" />
+        <img src="img/gallery/2.jpg" alt="" />
+        <img src="img/gallery/3.jpg" alt="" />
+        <img src="img/gallery/4.jpg" alt="" />
+        <img src="img/gallery/5.jpg" alt="" />
+        <img src="img/gallery/6.jpg" alt="" />
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col footer__col-first">
+            <img class="footer__logo" src="img/footer-logo.png" alt="" />
+            <p class="footer__text">
+              Take a look at how we designed this housesimply random text. It has roots in a piece
+              of classical Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+          </div>
+          <div class="footer__line"></div>
+          <div class="footer__col">
+            <ul class="footer__nav">
+              <li class="footer__item">
+                <a href="#" class="footer__link footer__link-orange">THE STUDIO</a>
+              </li>
+              <li class="footer__item"><a href="#" class="footer__link">PROJECTS</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Architecture</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__line"></div>
+          <div class="footer__col">
+            <h3 class="footer__subtitle">Visit</h3>
+            <p class="footer__visit">Logan Barker, 865 Oak Boulevard, Elk Grove, Vermont 95184</p>
+            <h3 class="footer__subtitle">Call</h3>
+            <a class="footer__call" href="tel:+13232323">017-6153-1774</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copy">© Copyright 2022</div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
